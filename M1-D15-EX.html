@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Exercises Day 15</title>
+   <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Exercises Day 15</h1>
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ol>
+  <div class="wholeTable">
+  <table>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+      <th>Column 3</th>
+      <th>Column 4</th>
+      <th>Column 5</th>
+    </tr>
+    <tr>
+      <td class="table">Column 1</td>
+      <td class="table">
+        <a href="https://www.amazon.de/HUAWEI-P50-Pro-True-Chroma-Aktualisierungsrate/dp/B09Q69QT5X/ref=sr_1_2?crid=9650FUA73T4J&keywords=huawei+p50+pro&qid=1670244942&sprefix=huawei%2Caps%2C97&sr=8-2">
+          <img src="HuaweiP50.jpg" alt="Huawei P50">Go to Amazon</a>
+      </td>
+      <td class="table">Column 3</td>
+      <td class="table" colspan="2">Column 4 and 5
+      </td>
+    </tr>
+    <tr>
+      <td class="table">Column 1</td>
+      <td class="table">
+        <a href="https://www.amazon.de/Xiaomi-Smartphone-DotDisplay-Turboladung-Graphitgrau/dp/B09RZYRTF1/ref=sr_1_1?crid=2O3NUO89W3NCB&keywords=redmi%2Bnote%2B11%2Bpro&qid=1670245065&sprefix=redmi%2Caps%2C84&sr=8-1&th=1">
+        <img src="RedmiNote11.jpg" alt="Redmi Note 11">Go to Amazon</a>
+      </td>
+      <td class="table">Column 3</td>
+      <td class="table">Column 4</td>
+      <td class="table">Column 5</td>
+    </tr>
+    <tr>
+      <td class="table">Column 1</td>
+      <td class="table">
+        <a href="https://www.amazon.de/Sony-Smartphone-OLED-Display-Dreifach-Kamera-5-mm-Audio/dp/B0BBS6ZHNH/ref=sr_1_1_sspa?crid=2QFV9RW7TSUEV&keywords=sony+xperia+5+ii&qid=1670245239&sprefix=sony%2Caps%2C83&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <img src="SonyXperia.jpg" alt="Sony Xperia">Go to Amazon</a>
+      </td>  
+      <td class="table">Column 3</td>
+      <td class="table">Column 4</td>
+      <td class="table">Column 5</td>
+    </tr>
+    <tr>
+      <td class="table">Column 1</td>
+      <td class="table">
+        <a href="https://www.amazon.de/Apple-iPhone-Pro-Max-256/dp/B0BDJMH6JP/ref=sr_1_1_sspa?crid=2XZTL00L0QQMK&keywords=iphone+14+pro+max&qid=1670244818&sprefix=iphone+%2Caps%2C82&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+          <img src="Iphone14Pro.jpg" alt="Iphone 14">Go to Amazon</a>
+        </td>
+      <td class="table">Column 3</td>
+      <td class="table">Column 4</td>
+      <td class="table">Column 5</td>
+    </tr>
+  </table>
+</div>
+  <hr>
+  <div id="container">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptates incidunt, quos vero temporibus assumenda id esse distinctio voluptatibus ipsam nihil saepe magnam aperiam itaque ipsa accusamus consequatur sed aliquam.</p>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+  <footer>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eaque nisi explicabo consequuntur, sunt facere necessitatibus vitae cumque architecto repellat voluptatem, asperiores amet repellendus sit quae harum distinctio minus dolores.</p>
+  </footer>
+  <!--
+        HTML EXERCISES
+
+        1) Create a title for this webpage
+        2) Create a heading of your choice
+        3) Create an ordered list with some list items into it
+        4) Create a table with 5 columns and 4 rows
+        5) Add an image to each second cell of every row
+        6) Add a anchor link for every image
+        7) Merge together 2 table cells
+        8) Divide the page using a horizontal line
+        9) Create a container with a nested paragraph and a nested unordered list
+        10) Create a footer with some information about the page creator
+
+      
+
+        DOM EXERCISES
+
+        31) Get the element with an id of "container" from the page
+        32) Get every <td> element from the page
+        33) Use a loop for printing the text inside of every <td> element in the page
+        34) Write a function to change the heading of the page
+        35) Write a function to add an extra row to the table
+        36) Write a function to add a class of "test" to each row in the table
+        37) Write a function to add a red background to every link in the page
+        38) Console log "Page loaded" when the page is correctly loaded
+        39) Write a function to add new items to a unordered list
+        40) Write a function to empty a list
+
+        EXTRA EXERCISES
+
+        41) Add an eventListener to show an alert when the cursor hovers a link, displaying its href property
+        42) Create a button that will hide every image on the page when clicked
+        43) Create a button that will hide or show the table on the page when clicked
+        44) Write a function for calculating the sum of every number inside all the table cells (if their content is numeric)
+        45) Delete the last letter from the heading each time the user clicks on it
+        46) Change the background color of a <td> if the user clicks on it
+        47) Add a delete button at the bottom of the table, when clicked it should delete a random <td>
+        48) Add automatically a pink border to a cell when the mouse hovers it
+        49) Write a function to create a table with 4 rows and 3 columns programmatically and add it to the bottom of the page
+        50) Write a function to remove the last table from the page
+
+        /* WHEN YOU ARE FINISHED
+          Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
+        */
+    -->
+  <script src="script.js"></script>
+</body>
+</html>
