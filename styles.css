@@ -12,7 +12,7 @@
         20) Add a dotted red border to each <tr> (note: <tr> does not accept a border property)
 */
 img{
-  height: 150px;
+  height: 100px;
 }
 body{
   margin-inline: auto;
@@ -24,8 +24,8 @@ h1{
 a{
   color: salmon;
 }
-.border{
-
+#new-rows{
+  width: 100%
 }
 .table{
   text-align: center;
@@ -47,4 +47,7 @@ p{
 }
 .wholeTable{
   border: 1px dotted red;
+}
+.red-bg{
+  background-color: red;
 }
